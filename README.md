@@ -147,8 +147,8 @@ const MAPBOX_TOKEN =
 
 ```javascript
 siteMetadata: {
-  siteTitle: 'Running Page', #website title
-  siteUrl: 'https://yihong.run', #website url
+  siteTitle: 'Riding Page', #website title
+  siteUrl: 'n', #website url
   logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU', #logo img
   description: 'Personal site and blog',
   navLinks: [

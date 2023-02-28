@@ -49,7 +49,7 @@ class Track:
             # (for example, treadmill runs pulled via garmin-connect-export)
             if os.path.getsize(file_name) == 0:
                 raise TrackLoadError("Empty GPX file")
-            with open(file_name, "r") as file:
+            with open(file_name, "r", encoding='UTF-8') as file:
                 self._load_gpx_data(mod_gpxpy.parse(file))
         except Exception as e:
             print(
