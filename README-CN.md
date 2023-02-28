@@ -157,13 +157,13 @@ const MAPBOX_TOKEN =
 ```javascript
 siteMetadata: {
   siteTitle: 'Riding Page', #网站标题
-  siteUrl: '', #网站域名
+  siteUrl: 'https://zhangliqiao92.github.io/running_page/', #网站域名
   logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU', #左上角LOGO
   description: 'Personal site and blog',
   navLinks: [
     {
       name: 'Blog', #右上角导航名称
-      // url: 'https://yihong.run/running', #右上角导航链接
+      url: 'https://zhangliqiao92.github.io/running_page/', #右上角导航链接
     },
     {
       name: 'About',
