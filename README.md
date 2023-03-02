@@ -148,17 +148,17 @@ const MAPBOX_TOKEN =
 ```javascript
 siteMetadata: {
   siteTitle: 'Riding Page', #website title
-  siteUrl: 'n', #website url
+  siteUrl: 'https://yihong.run/running', #website url
   logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU', #logo img
   description: 'Personal site and blog',
   navLinks: [
     {
       name: 'Blog', #navigation name
-      //url: 'https://yihong.run/running', #navigation url
+      url: 'https://yihong.run/running', #navigation url
     },
     {
       name: 'About',
-      //url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
     },
   ],
 },
